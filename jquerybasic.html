@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn jquery</title>
+    <link rel="stylesheet" href="js/style.css">
+</head>
+<body>
+    <h1>irfan khan : jquery syntax</h1>
+
+    <div id="test1">
+        <h2>Test Box</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, iure.</p>
+    </div>
+
+    <div id="test2">
+        <h2>Test Box 2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, eos.fehfgehjf.</p>
+    </div>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <h1>irfan khan</h1>
+                <h2>khan is back</h2>
+            </div>
+        </div>
+    </div>
+    <div class="irfan">
+        <div class="row">
+            <div class="col-sm-6">
+                <h1>irfan khan</h1>
+                <h2>khan is back</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+           var a = $("#test1").html();
+           console.log(a)
+            // console.log("hello")
+
+              var b = $("#test2").html();
+             console.log(b);
+
+            var c = $(".container").html();
+            console.log(c);
+
+            var d = $(".irfan").html();
+            console.log(d);
+        });
+    </script>
+</body>
+</html>

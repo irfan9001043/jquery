@@ -1,0 +1,22 @@
+
+#test1 {
+   float: left;
+   background-color:pink;
+   width:250px;
+   border: 5px solid white;
+   padding:30px;
+   justify-content: space-between;
+   margin:20px;   
+}
+
+
+
+#test2 {
+   float:left;
+   background-color:orange;
+   width:250px;
+   border: 5px solid white;
+   padding:30px;
+   justify-content: space-between;
+   margin:20px;
+}
